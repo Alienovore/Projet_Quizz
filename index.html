@@ -39,7 +39,7 @@
     />
   </head>
   <body>
-    <div>
+    <div id="selectTheme">
       <h1>Selectionnez un thème :</h1>
       <div class="option-group">
         <div class="option-container">
@@ -102,11 +102,11 @@
           </label>
         </div>
       </div>
-      <button class="btn btn-primary" id="playButton" onclick="chooseTheme()  ">
+      <button class="btn btn-primary" id="playButton" onclick="chooseTheme()">
         Jouer
       </button>
     </div>
-    <div style="visibility: hidden">
+    <div class="d-none" id="quizz">
       <h1 class="display-2">Quizz</h1>
       <h3 id="index_question"></h3>
       <div id="question"></div>
