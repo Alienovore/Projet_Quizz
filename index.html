@@ -37,6 +37,10 @@
       integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css"
+    />
   </head>
   <body>
     <div id="selectTheme">
@@ -46,25 +50,25 @@
           <input
             class="option-input"
             checked
-            id="option-1"
+            id="informatique"
             type="radio"
             name="options"
           />
           <input
             class="option-input"
-            id="option-2"
+            id="internet"
             type="radio"
             name="options"
           />
 
-          <label class="option" for="option-1">
+          <label class="option" for="informatique">
             <span class="option__indicator"></span>
             <span class="option__label">
               <sub>Informatique</sub>
             </span>
           </label>
 
-          <label class="option" for="option-2">
+          <label class="option" for="internet">
             <span class="option__indicator"></span>
             <span class="option__label">
               <sub>Internet</sub>
@@ -76,25 +80,25 @@
         <div class="option-container">
           <input
             class="option-input"
-            id="option-3"
+            id="gastronomie"
             type="radio"
             name="options"
           />
           <input
             class="option-input"
-            id="option-4"
+            id="sciences"
             type="radio"
             name="options"
           />
 
-          <label class="option" for="option-3">
+          <label class="option" for="gastronomie">
             <span class="option__indicator"></span>
             <span class="option__label">
               <sub>Gastronomie</sub>
             </span>
           </label>
 
-          <label class="option" for="option-4">
+          <label class="option" for="sciences">
             <span class="option__indicator"></span>
             <span class="option__label">
               <sub>Sciences</sub>
@@ -102,6 +106,18 @@
           </label>
         </div>
       </div>
+      <h2>Difficulté</h2>
+      <select
+        name="difficulty"
+        id="difficulty"
+        class="browser-default custom-select"
+      >
+        <option value="0" selected>Toutes difficultés</option>
+        <option value="1">Facile</option>
+        <option value="2">Moyen</option>
+        <option value="3">Difficile</option> </select
+      ><br />
+
       <button class="btn btn-primary" id="playButton" onclick="chooseTheme()">
         Jouer
       </button>

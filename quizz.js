@@ -5,10 +5,10 @@ let right_ans;
 let score = 0;
 
 //Loop starter with the first question
-loadQuestion();
 
 function chooseTheme() {
   let theme = document.getElementsByName("options");
+  let difficulty = document.getElementById("difficulty").value;
   let option = undefined;
   for (let i = 0; i < theme.length; i++) {
     if (theme[i].checked == true) {
@@ -18,9 +18,10 @@ function chooseTheme() {
   console.log(option);
   document.getElementById("selectTheme").classList.add("d-none");
   document.getElementById("quizz").classList.remove("d-none");
+  loadQuestion(option, difficulty);
 }
 
-function loadQuestion() {
+function loadQuestion(theme, difficulty) {
   //Check if it's the last question
   if (index_question < nb_question) {
     //Reset of the answer part and disable the button
@@ -28,7 +29,7 @@ function loadQuestion() {
     //Display of the question number
     document.getElementById("index_question").innerHTML =
       "Question: " + (index_question + 1);
-    fetch(`http://localhost:8080/internet.json`)
+    fetch(`http://localhost:8080/${theme}.json`)
       .then(result => result.json())
       .then(data => {
         nb_question = data.results.length;
