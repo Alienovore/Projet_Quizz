@@ -20,11 +20,11 @@
             "theme": "La Durance",
             "difficulte": "expert",
             "question": "Dans quel film de François Villiers retrouve-t-on la construction du barrage de Serre-Ponçon ?",
-            "reponse_correcte": "'L'Eau vive'",
+            "reponse_correcte": "L'Eau vive",
             "autres_choix": [
-                "'La Duchesse'",
-                "'La Verte Moisson'",
-                "'L'Autre femme'"
+                "La Duchesse",
+                "La Verte Moisson",
+                "L'Autre femme"
             ]
         },
         {

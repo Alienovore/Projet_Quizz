@@ -345,11 +345,11 @@
             "theme": "Linux",
             "difficulte": "expert",
             "question": "Lequel de ces jeux tourne nativement sous GNU/Linux ?",
-            "reponse_correcte": "'Quake III Arena'",
+            "reponse_correcte": "Quake III Arena",
             "autres_choix": [
-                "'Super Mario Kart'",
-                "'Zelda'",
-                "'Splinter Cell'"
+                "Super Mario Kart",
+                "Zelda",
+                "Splinter Cell"
             ]
         },
         {

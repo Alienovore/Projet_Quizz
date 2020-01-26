@@ -8,7 +8,11 @@
       "difficulte": "débutant",
       "question": "Quel supercalculateur fut le premier à battre un champion du monde d'échecs ?",
       "reponse_correcte": "Deep Blue",
-      "autres_choix": ["Myrinet", "GENCI", "Sequoia"]
+      "autres_choix": [
+        "Myrinet",
+        "GENCI",
+        "Sequoia"
+      ]
     },
     {
       "langue": "fr",
@@ -17,7 +21,11 @@
       "difficulte": "débutant",
       "question": "Lequel de ces troubles peut être lié à une carence en magnésium ?",
       "reponse_correcte": "Crampes",
-      "autres_choix": ["Anorexie", "Boulimie", "Asthme"]
+      "autres_choix": [
+        "Anorexie",
+        "Boulimie",
+        "Asthme"
+      ]
     },
     {
       "langue": "fr",
@@ -26,7 +34,11 @@
       "difficulte": "confirmé",
       "question": "Laquelle de ces propositions désigne une unité de masse pratiquement plus usitée ?",
       "reponse_correcte": "Le quintal",
-      "autres_choix": ["Le curie", "Le morgan", "La verste"]
+      "autres_choix": [
+        "Le curie",
+        "Le morgan",
+        "La verste"
+      ]
     },
     {
       "langue": "fr",
@@ -35,7 +47,11 @@
       "difficulte": "confirmé",
       "question": "Lors de la première saison, combien d'heures a duré l'aventure de l'agent anti-terroriste Jack Bauer ?",
       "reponse_correcte": "24",
-      "autres_choix": ["22", "20", "18"]
+      "autres_choix": [
+        "22",
+        "20",
+        "18"
+      ]
     },
     {
       "langue": "fr",
@@ -44,7 +60,11 @@
       "difficulte": "confirmé",
       "question": "Quel célèbre médecin a conçu une table de correspondance entre les rêves et les organes ?",
       "reponse_correcte": "Hippocrate",
-      "autres_choix": ["Pythagore", "Pilate", "Icare"]
+      "autres_choix": [
+        "Pythagore",
+        "Pilate",
+        "Icare"
+      ]
     },
     {
       "langue": "fr",
@@ -66,7 +86,11 @@
       "difficulte": "expert",
       "question": "Quelle est la longueur de la cordillère des Andes culminant à 6 962 mètres ?",
       "reponse_correcte": "7 100 km",
-      "autres_choix": ["6 700 km", "8 300 km", "9 700 km"]
+      "autres_choix": [
+        "6 700 km",
+        "8 300 km",
+        "9 700 km"
+      ]
     },
     {
       "langue": "fr",
@@ -75,7 +99,11 @@
       "difficulte": "débutant",
       "question": "Avec qui Nikola Tesla a-t-il travaillé après avoir émigré aux États-Unis en 1884 ?",
       "reponse_correcte": "Thomas Edison",
-      "autres_choix": ["Bob Wright", "Nela Park", "James Cash Jr."]
+      "autres_choix": [
+        "Bob Wright",
+        "Nela Park",
+        "James Cash Jr."
+      ]
     },
     {
       "langue": "fr",
@@ -84,7 +112,11 @@
       "difficulte": "confirmé",
       "question": "La main d'un individu adulte comporte combien d'os ?",
       "reponse_correcte": "26",
-      "autres_choix": ["20", "32", "40"]
+      "autres_choix": [
+        "20",
+        "32",
+        "40"
+      ]
     },
     {
       "langue": "fr",
@@ -93,7 +125,11 @@
       "difficulte": "débutant",
       "question": "En quelle année a eu lieu le tout premier Festival de Cannes ?",
       "reponse_correcte": "1946",
-      "autres_choix": ["1956", "1966", "1976"]
+      "autres_choix": [
+        "1956",
+        "1966",
+        "1976"
+      ]
     },
     {
       "langue": "fr",
@@ -102,7 +138,11 @@
       "difficulte": "confirmé",
       "question": "Qui a publié le roman 'Indécence manifeste' sur la vie de Turing ?",
       "reponse_correcte": "David Lagercrantz",
-      "autres_choix": ["Björn Larsson", "Ulf Durling", "Patrick Boman"]
+      "autres_choix": [
+        "Björn Larsson",
+        "Ulf Durling",
+        "Patrick Boman"
+      ]
     },
     {
       "langue": "fr",
@@ -111,7 +151,11 @@
       "difficulte": "confirmé",
       "question": "Le mot « kilogramme » est dérivé du grec ancien kilo qui signifie...",
       "reponse_correcte": "Mille",
-      "autres_choix": ["Lourd", "Gros", "Cent"]
+      "autres_choix": [
+        "Lourd",
+        "Gros",
+        "Cent"
+      ]
     },
     {
       "langue": "fr",
@@ -120,7 +164,11 @@
       "difficulte": "expert",
       "question": "Combien de sélections Zinédine Zidane a-t-il reçu en équipe de France de football ?",
       "reponse_correcte": "108",
-      "autres_choix": ["98", "118", "128"]
+      "autres_choix": [
+        "98",
+        "118",
+        "128"
+      ]
     },
     {
       "langue": "fr",
@@ -129,7 +177,11 @@
       "difficulte": "débutant",
       "question": "Laquelle de ces échelles mesure l'intensité et la magnitude d'un séisme ?",
       "reponse_correcte": "Richter",
-      "autres_choix": ["Torro", "Leyden", "Ines"]
+      "autres_choix": [
+        "Torro",
+        "Leyden",
+        "Ines"
+      ]
     },
     {
       "langue": "fr",
@@ -138,7 +190,11 @@
       "difficulte": "confirmé",
       "question": "Quel franco-américain a réalisé en 1982 le film franco-britannique 'Enigma' ?",
       "reponse_correcte": "Jeannot Szwarc",
-      "autres_choix": ["Olias Barco", "Alexandre Aja", "Didier Caron"]
+      "autres_choix": [
+        "Olias Barco",
+        "Alexandre Aja",
+        "Didier Caron"
+      ]
     },
     {
       "langue": "fr",
@@ -147,7 +203,11 @@
       "difficulte": "débutant",
       "question": "Quelle est l'origine de notre principale source alimentaire de magnésium ?",
       "reponse_correcte": "Céréalière",
-      "autres_choix": ["Animale", "Chimique", "Minérale"]
+      "autres_choix": [
+        "Animale",
+        "Chimique",
+        "Minérale"
+      ]
     },
     {
       "langue": "fr",
@@ -156,7 +216,11 @@
       "difficulte": "confirmé",
       "question": "À quel bâtiment préfabriqué Turing a-t-il été affecté pour l'Enigma navale ?",
       "reponse_correcte": "Hut 8",
-      "autres_choix": ["Zone 51", "Delta 6", "Fox 34"]
+      "autres_choix": [
+        "Zone 51",
+        "Delta 6",
+        "Fox 34"
+      ]
     },
     {
       "langue": "fr",
@@ -165,7 +229,11 @@
       "difficulte": "confirmé",
       "question": "Dans quelle ville Alan Turing est-il né le 23 juin 1912 ?",
       "reponse_correcte": "Londres",
-      "autres_choix": ["Sydney", "Stockholm", "Bruxelles"]
+      "autres_choix": [
+        "Sydney",
+        "Stockholm",
+        "Bruxelles"
+      ]
     },
     {
       "langue": "fr",
@@ -174,7 +242,11 @@
       "difficulte": "débutant",
       "question": "Quelle est la température moyenne du corps humain en degrés Celsius ?",
       "reponse_correcte": "36,8 °",
-      "autres_choix": ["38,6 °", "40,6 °", "34,6 °"]
+      "autres_choix": [
+        "38,6 °",
+        "40,6 °",
+        "34,6 °"
+      ]
     },
     {
       "langue": "fr",
@@ -183,7 +255,11 @@
       "difficulte": "débutant",
       "question": "Qui a inventé la dynamite au moyen de la nitroglycérine ?",
       "reponse_correcte": "Alfred Nobel",
-      "autres_choix": ["Albert Einstein", "Lavoisier", "Isaac Newton"]
+      "autres_choix": [
+        "Albert Einstein",
+        "Lavoisier",
+        "Isaac Newton"
+      ]
     },
     {
       "langue": "fr",
@@ -192,7 +268,11 @@
       "difficulte": "expert",
       "question": "Combien de soldats environ compte l'armée enterrée de l'empereur Qin ?",
       "reponse_correcte": "8 000",
-      "autres_choix": ["6 000", "4 000", "10 000"]
+      "autres_choix": [
+        "6 000",
+        "4 000",
+        "10 000"
+      ]
     },
     {
       "langue": "fr",
@@ -201,7 +281,11 @@
       "difficulte": "débutant",
       "question": "Quelle est l'abréviation du Système international d'unités, le plus largement employé au monde ?",
       "reponse_correcte": "SI",
-      "autres_choix": ["SIU", "UIS", "IUS"]
+      "autres_choix": [
+        "SIU",
+        "UIS",
+        "IUS"
+      ]
     },
     {
       "langue": "fr",
@@ -210,7 +294,11 @@
       "difficulte": "expert",
       "question": "Quel équipement de labo protège une substance des environnements humides ?",
       "reponse_correcte": "Dessiccateur",
-      "autres_choix": ["Décanteur", "Manchon", "Bécher"]
+      "autres_choix": [
+        "Décanteur",
+        "Manchon",
+        "Bécher"
+      ]
     },
     {
       "langue": "fr",
@@ -219,16 +307,24 @@
       "difficulte": "expert",
       "question": "Quel ingénieur écossais fut le premier à utiliser le terme « cheval-vapeur » ?",
       "reponse_correcte": "James Watt",
-      "autres_choix": ["Henry Dyer", "Alexander Thom", "William Rankine"]
+      "autres_choix": [
+        "Henry Dyer",
+        "Alexander Thom",
+        "William Rankine"
+      ]
     },
     {
       "langue": "fr",
       "categorie": "sciences",
       "theme": "Le corps humain",
-      "difficulte": "confirmé",{"response_code":0,"results":[{"langue":"fr","categorie":"sciences","theme":"Alan Turing","difficulte":"débutant","question":"Quel supercalculateur fut le premier à battre un champion du monde d'échecs ?","reponse_correcte":"Deep Blue","autres_choix":["Myrinet","GENCI","Sequoia"]},{"langue":"fr","categorie":"sciences","theme":"Magnésium","difficulte":"débutant","question":"Lequel de ces troubles peut être lié à une carence en magnésium ?","reponse_correcte":"Crampes","autres_choix":["Anorexie","Boulimie","Asthme"]},{"langue":"fr","categorie":"sciences","theme":"Unités de mesure","difficulte":"confirmé","question":"Laquelle de ces propositions désigne une unité de masse pratiquement plus usitée ?","reponse_correcte":"Le quintal","autres_choix":["Le curie","Le morgan","La verste"]},{"langue":"fr","categorie":"sciences","theme":"Trouvez le nombre","difficulte":"confirmé","question":"Lors de la première saison, combien d'heures a duré l'aventure de l'agent anti-terroriste Jack Bauer ?","reponse_correcte":"24","autres_choix":["22","20","18"]},{"langue":"fr","categorie":"sciences","theme":"Inventions","difficulte":"confirmé","question":"Quel célèbre médecin a conçu une table de correspondance entre les rêves et les organes ?","reponse_correcte":"Hippocrate","autres_choix":["Pythagore","Pilate","Icare"]},{"langue":"fr","categorie":"sciences","theme":"Inventions","difficulte":"débutant","question":"Quel billet le banquier Law a-t-il inventé au XVIIIe siècle ?","reponse_correcte":"Le billet de banque","autres_choix":["Le billet de loterie","Le billet doux","Le billet notarial"]},{"langue":"fr","categorie":"sciences","theme":"Questions de nombres","difficulte":"expert","question":"Quelle est la longueur de la cordillère des Andes culminant à 6 962 mètres ?","reponse_correcte":"7 100 km","autres_choix":["6 700 km","8 300 km","9 700 km"]},{"langue":"fr","categorie":"sciences","theme":"Nikola Tesla","difficulte":"débutant","question":"Avec qui Nikola Tesla a-t-il travaillé après avoir émigré aux États-Unis en 1884 ?","reponse_correcte":"Thomas Edison","autres_choix":["Bob Wright","Nela Park","James Cash Jr."]},{"langue":"fr","categorie":"sciences","theme":"Le corps humain","difficulte":"confirmé","question":"La main d'un individu adulte comporte combien d'os ?","reponse_correcte":"26","autres_choix":["20","32","40"]},{"langue":"fr","categorie":"sciences","theme":"Questions de nombres","difficulte":"débutant","question":"En quelle année a eu lieu le tout premier Festival de Cannes ?","reponse_correcte":"1946","autres_choix":["1956","1966","1976"]},{"langue":"fr","categorie":"sciences","theme":"Alan Turing","difficulte":"confirmé","question":"Qui a publié le roman 'Indécence manifeste' sur la vie de Turing ?","reponse_correcte":"David Lagercrantz","autres_choix":["Björn Larsson","Ulf Durling","Patrick Boman"]},{"langue":"fr","categorie":"sciences","theme":"Unités de mesure","difficulte":"confirmé","question":"Le mot « kilogramme » est dérivé du grec ancien kilo qui signifie...","reponse_correcte":"Mille","autres_choix":["Lourd","Gros","Cent"]},{"langue":"fr","categorie":"sciences","theme":"Trouvez le nombre","difficulte":"expert","question":"Combien de sélections Zinédine Zidane a-t-il reçu en équipe de France de football ?","reponse_correcte":"108","autres_choix":["98","118","128"]},{"langue":"fr","categorie":"sciences","theme":"Unités de mesure","difficulte":"débutant","question":"Laquelle de ces échelles mesure l'intensité et la magnitude d'un séisme ?","reponse_correcte":"Richter","autres_choix":["Torro","Leyden","Ines"]},{"langue":"fr","categorie":"sciences","theme":"Alan Turing","difficulte":"confirmé","question":"Quel franco-américain a réalisé en 1982 le film franco-britannique 'Enigma' ?","reponse_correcte":"Jeannot Szwarc","autres_choix":["Olias Barco","Alexandre Aja","Didier Caron"]},{"langue":"fr","categorie":"sciences","theme":"Magnésium","difficulte":"débutant","question":"Quelle est l'origine de notre principale source alimentaire de magnésium ?","reponse_correcte":"Céréalière","autres_choix":["Animale","Chimique","Minérale"]},{"langue":"fr","categorie":"sciences","theme":"Alan Turing","difficulte":"confirmé","question":"À quel bâtiment préfabriqué Turing a-t-il été affecté pour l'Enigma navale ?","reponse_correcte":"Hut 8","autres_choix":["Zone 51","Delta 6","Fox 34"]},{"langue":"fr","categorie":"sciences","theme":"Alan Turing","difficulte":"confirmé","question":"Dans quelle ville Alan Turing est-il né le 23 juin 1912 ?","reponse_correcte":"Londres","autres_choix":["Sydney","Stockholm","Bruxelles"]},{"langue":"fr","categorie":"sciences","theme":"Unités de mesure","difficulte":"débutant","question":"Quelle est la température moyenne du corps humain en degrés Celsius ?","reponse_correcte":"36,8 °","autres_choix":["38,6 °","40,6 °","34,6 °"]},{"langue":"fr","categorie":"sciences","theme":"Inventions","difficulte":"débutant","question":"Qui a inventé la dynamite au moyen de la nitroglycérine ?","reponse_correcte":"Alfred Nobel","autres_choix":["Albert Einstein","Lavoisier","Isaac Newton"]},{"langue":"fr","categorie":"sciences","theme":"Questions de nombres","difficulte":"expert","question":"Combien de soldats environ compte l'armée enterrée de l'empereur Qin ?","reponse_correcte":"8 000","autres_choix":["6 000","4 000","10 000"]},{"langue":"fr","categorie":"sciences","theme":"Unités de mesure","difficulte":"débutant","question":"Quelle est l'abréviation du Système international d'unités, le plus largement employé au monde ?","reponse_correcte":"SI","autres_choix":["SIU","UIS","IUS"]},{"langue":"fr","categorie":"sciences","theme":"Chimie","difficulte":"expert","question":"Quel équipement de labo protège une substance des environnements humides ?","reponse_correcte":"Dessiccateur","autres_choix":["Décanteur","Manchon","Bécher"]},{"langue":"fr","categorie":"sciences","theme":"Inventions","difficulte":"expert","question":"Quel ingénieur écossais fut le premier à utiliser le terme « cheval-vapeur » ?","reponse_correcte":"James Watt","autres_choix":["Henry Dyer","Alexander Thom","William Rankine"]},{"langue":"fr","categorie":"sciences","theme":"Le corps humain","difficulte":"confirmé","question":"Combien de cheveux perdons-nous chaque jour en moyenne ?","reponse_correcte":"80","autres_choix":["170","240","390"]},{"langue":"fr","categorie":"sciences","theme":"Alan Turing","difficulte":"confirmé","question":"Comment Alan Turing a-t-il été retrouvé mort dans sa maison de Manchester ?","reponse_correcte":"Empoisonné","autres_choix":["Poignardé","Pendu","Décapité"]},{"langue":"fr","categorie":"sciences","theme":"Trouvez le nombre","difficulte":"confirmé","question":"À quel âge Jim Morrison, célèbre chanteurs des Doors, a-t-il trouvé la mort ?","reponse_correcte":"27 ans","autres_choix":["37 ans","47 ans","57 ans"]},{"langue":"fr","categorie":"sciences","theme":"Unités de mesure","difficulte":"expert","question":"Dans le Système international d'unités, quelle est l'unité de mesure d'une intensité lumineuse ?","reponse_correcte":"Candela","autres_choix":["Kelvin","Ampère","Mole"]},{"langue":"fr","categorie":"sciences","theme":"Nikola Tesla","difficulte":"débutant","question":"Quel appareil énoncé par Tesla sera plus tard installé sur des bateaux ?","reponse_correcte":"Le radar","autres_choix":["La bobine","Lanémomètre","Le météofax"]},{"langue":"fr","categorie":"sciences","theme":"Inventions","difficulte":"confirmé","question":"Quel terme fut inventé en 1955 par le philologue français Jacques Perret ?","reponse_correcte":"Ordinateur","autres_choix":["Transistor","Imprimante","Ampoule"]}]}
+      "difficulte": "confirmé",
       "question": "À quel âge Jim Morrison, célèbre chanteurs des Doors, a-t-il trouvé la mort ?",
       "reponse_correcte": "27 ans",
-      "autres_choix": ["37 ans", "47 ans", "57 ans"]
+      "autres_choix": [
+        "37 ans",
+        "47 ans",
+        "57 ans"
+      ]
     },
     {
       "langue": "fr",
@@ -237,7 +333,11 @@
       "difficulte": "expert",
       "question": "Dans le Système international d'unités, quelle est l'unité de mesure d'une intensité lumineuse ?",
       "reponse_correcte": "Candela",
-      "autres_choix": ["Kelvin", "Ampère", "Mole"]
+      "autres_choix": [
+        "Kelvin",
+        "Ampère",
+        "Mole"
+      ]
     },
     {
       "langue": "fr",
@@ -246,7 +346,11 @@
       "difficulte": "débutant",
       "question": "Quel appareil énoncé par Tesla sera plus tard installé sur des bateaux ?",
       "reponse_correcte": "Le radar",
-      "autres_choix": ["La bobine", "Lanémomètre", "Le météofax"]
+      "autres_choix": [
+        "La bobine",
+        "Lanémomètre",
+        "Le météofax"
+      ]
     },
     {
       "langue": "fr",
@@ -255,7 +359,11 @@
       "difficulte": "confirmé",
       "question": "Quel terme fut inventé en 1955 par le philologue français Jacques Perret ?",
       "reponse_correcte": "Ordinateur",
-      "autres_choix": ["Transistor", "Imprimante", "Ampoule"]
+      "autres_choix": [
+        "Transistor",
+        "Imprimante",
+        "Ampoule"
+      ]
     }
   ]
 }

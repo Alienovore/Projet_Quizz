@@ -59,11 +59,11 @@
             "theme": "Réseaux sociaux",
             "difficulte": "débutant",
             "question": "Récemment diplômé(e), sur quel réseau social allez-vous probablement rechercher un job ?",
-            "reponse_correcte": "'LinkedIn'",
+            "reponse_correcte": "LinkedIn",
             "autres_choix": [
-                "'Tinder'",
-                "'Twich'",
-                "'Reddit'"
+                "Tinder",
+                "Twich",
+                "Reddit"
             ]
         },
         {
@@ -85,11 +85,11 @@
             "theme": "Applications web",
             "difficulte": "expert",
             "question": "Quelle suite logicielle équivaut à Microsoft Office chez le géant Google ?",
-            "reponse_correcte": "'Google Documents'",
+            "reponse_correcte": "Google Documents",
             "autres_choix": [
-                "'OpenOffice'",
-                "'Google Sites'",
-                "'Works'"
+                "OpenOffice",
+                "Google Sites",
+                "Works"
             ]
         },
         {
@@ -98,11 +98,11 @@
             "theme": "Méandres d'Internet",
             "difficulte": "débutant",
             "question": "Quelle encyclopédie collaborative est actuellement la plus utilisée sur Internet ?",
-            "reponse_correcte": "'Wikipédia'",
+            "reponse_correcte": "Wikipédia",
             "autres_choix": [
-                "'Framasoft'",
-                "'Pandocréon'",
-                "'Netalya'"
+                "Framasoft",
+                "Pandocréon",
+                "Netalya"
             ]
         },
         {
@@ -163,11 +163,11 @@
             "theme": "Réseaux sociaux",
             "difficulte": "confirmé",
             "question": "Quelle plate-forme de microblogage accueille 300 millions de visiteurs uniques mensuels ?",
-            "reponse_correcte": "'Tumblr'",
+            "reponse_correcte": "Tumblr",
             "autres_choix": [
-                "'Reddit'",
-                "'Tinder'",
-                "'Pinterest'"
+                "Reddit",
+                "Tinder",
+                "Pinterest"
             ]
         },
         {
@@ -176,11 +176,11 @@
             "theme": "Réseaux sociaux",
             "difficulte": "débutant",
             "question": "Parmi ces réseaux sociaux fort appréciés, lequel a connu la plus forte croissance en 2014 ?",
-            "reponse_correcte": "'Pinterest'",
+            "reponse_correcte": "Pinterest",
             "autres_choix": [
-                "'SoundCloud'",
-                "'Facebook'",
-                "'LinkedIn'"
+                "SoundCloud",
+                "Facebook",
+                "LinkedIn"
             ]
         },
         {
@@ -306,11 +306,11 @@
             "theme": "Réseaux sociaux",
             "difficulte": "confirmé",
             "question": "Quel média social permet d'indiquer où l'on se trouve et de recommander des lieux de sorties ?",
-            "reponse_correcte": "'Foursquare'",
+            "reponse_correcte": "Foursquare",
             "autres_choix": [
-                "'Viadeo'",
-                "'Piwie'",
-                "'Kaki'"
+                "Viadeo",
+                "Piwie",
+                "Kaki"
             ]
         },
         {
@@ -319,11 +319,11 @@
             "theme": "Méandres d'Internet",
             "difficulte": "confirmé",
             "question": "Quel nom portait le précédent navigateur Internet de Microsoft, devenu aujourd'hui 'Microsoft Edge' ?",
-            "reponse_correcte": "'Internet Explorer'",
+            "reponse_correcte": "Internet Explorer",
             "autres_choix": [
-                "'Safari'",
-                "'Chrome'",
-                "'Firefox'"
+                "Safari",
+                "Chrome",
+                "Firefox"
             ]
         },
         {
