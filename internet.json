@@ -1,0 +1,395 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Méandres d'Internet",
+            "difficulte": "débutant",
+            "question": "Comment appelle-t-on une personne qui utilise Internet pour visiter des sites web ?",
+            "reponse_correcte": "Internaute",
+            "autres_choix": [
+                "Webmaster",
+                "Navigateur",
+                "Butineur"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Réseaux sociaux",
+            "difficulte": "confirmé",
+            "question": "Combien de photos sont environ partagées chaque jour sur le réseau 'Instagram' ?",
+            "reponse_correcte": "55 millions",
+            "autres_choix": [
+                "45 millions",
+                "35 millions",
+                "25 millions"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Méandres d'Internet",
+            "difficulte": "expert",
+            "question": "En quelle année a été envoyé le tout premier courriel ou courrier électronique ?",
+            "reponse_correcte": "1971",
+            "autres_choix": [
+                "1961",
+                "1981",
+                "1991"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Applications web",
+            "difficulte": "débutant",
+            "question": "En informatique, quel logiciel permet de créer des calculs automatiques ?",
+            "reponse_correcte": "Un tableur",
+            "autres_choix": [
+                "Un débogueur",
+                "Un navigateur",
+                "Un explorateur"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Réseaux sociaux",
+            "difficulte": "débutant",
+            "question": "Récemment diplômé(e), sur quel réseau social allez-vous probablement rechercher un job ?",
+            "reponse_correcte": "'LinkedIn'",
+            "autres_choix": [
+                "'Tinder'",
+                "'Twich'",
+                "'Reddit'"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Méandres d'Internet",
+            "difficulte": "expert",
+            "question": "Quelle opération informatique illicite consiste à copier l'intégralité d'un site Internet sur son ordinateur ?",
+            "reponse_correcte": "Aspiration",
+            "autres_choix": [
+                "Copie",
+                "Sauvegarde",
+                "Gravure"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Applications web",
+            "difficulte": "expert",
+            "question": "Quelle suite logicielle équivaut à Microsoft Office chez le géant Google ?",
+            "reponse_correcte": "'Google Documents'",
+            "autres_choix": [
+                "'OpenOffice'",
+                "'Google Sites'",
+                "'Works'"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Méandres d'Internet",
+            "difficulte": "débutant",
+            "question": "Quelle encyclopédie collaborative est actuellement la plus utilisée sur Internet ?",
+            "reponse_correcte": "'Wikipédia'",
+            "autres_choix": [
+                "'Framasoft'",
+                "'Pandocréon'",
+                "'Netalya'"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Réseaux sociaux",
+            "difficulte": "débutant",
+            "question": "Quel informaticien et chef d'entreprise américain a inventé 'Facebook' ?",
+            "reponse_correcte": "Mark Zuckeberg",
+            "autres_choix": [
+                "Larry Page",
+                "Steve Ballmer",
+                "Paul Allen"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Réseaux sociaux",
+            "difficulte": "débutant",
+            "question": "Avec 'Instagram', on peut bien évidemment prendre des photos, mais aussi réaliser...",
+            "reponse_correcte": "Une vidéo",
+            "autres_choix": [
+                "Une présentation",
+                "Un document texte",
+                "Une musique"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Applications web",
+            "difficulte": "expert",
+            "question": "Combien de téléchargements dénombrait-on sur le célèbre 'App Store' fin 2012 ?",
+            "reponse_correcte": "35 milliards",
+            "autres_choix": [
+                "25 milliards",
+                "15 milliards",
+                "5 milliards"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Méandres d'Internet",
+            "difficulte": "débutant",
+            "question": "Comment désigne-t-on un passionné d'Internet et des nouvelles technologies ?",
+            "reponse_correcte": "Geek",
+            "autres_choix": [
+                "Hacker",
+                "No life",
+                "Butineur"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Réseaux sociaux",
+            "difficulte": "confirmé",
+            "question": "Quelle plate-forme de microblogage accueille 300 millions de visiteurs uniques mensuels ?",
+            "reponse_correcte": "'Tumblr'",
+            "autres_choix": [
+                "'Reddit'",
+                "'Tinder'",
+                "'Pinterest'"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Réseaux sociaux",
+            "difficulte": "débutant",
+            "question": "Parmi ces réseaux sociaux fort appréciés, lequel a connu la plus forte croissance en 2014 ?",
+            "reponse_correcte": "'Pinterest'",
+            "autres_choix": [
+                "'SoundCloud'",
+                "'Facebook'",
+                "'LinkedIn'"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Méandres d'Internet",
+            "difficulte": "débutant",
+            "question": "Sur Internet, 'Google', 'Bing' et 'Yahoo' sont des exemples de moteurs de...",
+            "reponse_correcte": "Recherche",
+            "autres_choix": [
+                "Courrier",
+                "Sauvegarde",
+                "Navigation"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Snapchat",
+            "difficulte": "expert",
+            "question": "À quelle somme l'entreprise Snapchat était-elle valorisée en 2017 ?",
+            "reponse_correcte": "24 milliards",
+            "autres_choix": [
+                "14 milliards",
+                "4 milliards",
+                "34 milliards"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Snapchat",
+            "difficulte": "expert",
+            "question": "En quelle année Snapchat a-t-il été victime d'un important piratage le 31 décembre ?",
+            "reponse_correcte": "2013",
+            "autres_choix": [
+                "2014",
+                "2015",
+                "2016"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Méandres d'Internet",
+            "difficulte": "confirmé",
+            "question": "De combien de mégaoctets avez-vous besoin pour obtenir un gigaoctet ?",
+            "reponse_correcte": "1 024",
+            "autres_choix": [
+                "100",
+                "49",
+                "10 000"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "People : janvier 2017",
+            "difficulte": "expert",
+            "question": "Quel chanteur a déjà diffusé trois vidéos dans le plus simple appareil ?",
+            "reponse_correcte": "James Blunt",
+            "autres_choix": [
+                "Johnny Flynn",
+                "Charlie Winston",
+                "Duncan Browne"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Applications web",
+            "difficulte": "expert",
+            "question": "Quelle est la date « officielle » de création de 'Wikipédia' en Français ?",
+            "reponse_correcte": "Le 23 mars 2001",
+            "autres_choix": [
+                "Le 2 janvier 1999",
+                "Le 15 janvier 2002",
+                "Le 8 décembre 2000"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Réseaux sociaux",
+            "difficulte": "confirmé",
+            "question": "En quelle année a été fondé 'Twitter', outil de microblogage géré par l'entreprise Twitter Inc ?",
+            "reponse_correcte": "2006",
+            "autres_choix": [
+                "2004",
+                "2008",
+                "2002"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Actu people : août 2017",
+            "difficulte": "confirmé",
+            "question": "Quelle star de 'Game of Thrones' a été engagée grâce à ses followers ?",
+            "reponse_correcte": "Sophie Turner",
+            "autres_choix": [
+                "Lena Headey",
+                "Emilia Clarke",
+                "Maisie Williams"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Méandres d'Internet",
+            "difficulte": "confirmé",
+            "question": "Que signifie le deuxième « w » du « www » utilisé dans la plupart des adresses de sites internet ?",
+            "reponse_correcte": "Wide",
+            "autres_choix": [
+                "World",
+                "Worse",
+                "Web"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Réseaux sociaux",
+            "difficulte": "confirmé",
+            "question": "Quel média social permet d'indiquer où l'on se trouve et de recommander des lieux de sorties ?",
+            "reponse_correcte": "'Foursquare'",
+            "autres_choix": [
+                "'Viadeo'",
+                "'Piwie'",
+                "'Kaki'"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Méandres d'Internet",
+            "difficulte": "confirmé",
+            "question": "Quel nom portait le précédent navigateur Internet de Microsoft, devenu aujourd'hui 'Microsoft Edge' ?",
+            "reponse_correcte": "'Internet Explorer'",
+            "autres_choix": [
+                "'Safari'",
+                "'Chrome'",
+                "'Firefox'"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Snapchat",
+            "difficulte": "confirmé",
+            "question": "Qui est devenu milliardaire à l'âge de 24 ans grâce à Snapchat ?",
+            "reponse_correcte": "Evan Spiegel",
+            "autres_choix": [
+                "Jeff Bezos",
+                "Paul Allen",
+                "Tom Golisano"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Méandres d'Internet",
+            "difficulte": "expert",
+            "question": "Quelle abréviation est utilisée pour désigner une adresse de site Internet ?",
+            "reponse_correcte": "URL",
+            "autres_choix": [
+                "TCP",
+                "MP3",
+                "KBD"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Réseaux sociaux",
+            "difficulte": "confirmé",
+            "question": "Fin 2014, combien d'utilisateurs comptait l'application 'Instagram' lancée en octobre 2010 ?",
+            "reponse_correcte": "300 millions",
+            "autres_choix": [
+                "200 millions",
+                "100 millions",
+                "400 millions"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Applications web",
+            "difficulte": "confirmé",
+            "question": "Qui est le tout premier pape à avoir envoyé un message sur 'Twitter' ?",
+            "reponse_correcte": "Benoît XVI",
+            "autres_choix": [
+                "François",
+                "Jean-Paul II",
+                "Paul VI"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "internet",
+            "theme": "Applications web",
+            "difficulte": "confirmé",
+            "question": "Quel logiciel est mis gratuitement et librement à disposition par son créateur ?",
+            "reponse_correcte": "Un freeware",
+            "autres_choix": [
+                "Un malware",
+                "Un adware",
+                "Un software"
+            ]
+        }
+    ]
+}

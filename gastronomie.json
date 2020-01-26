@@ -1,0 +1,395 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Villes du monde",
+            "difficulte": "expert",
+            "question": "Au bord de quoi la ville de Chicago est-elle construite ?",
+            "reponse_correcte": "Lac",
+            "autres_choix": [
+                "Océan",
+                "Volcan",
+                "Faille"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "La Durance",
+            "difficulte": "expert",
+            "question": "Dans quel film de François Villiers retrouve-t-on la construction du barrage de Serre-Ponçon ?",
+            "reponse_correcte": "'L'Eau vive'",
+            "autres_choix": [
+                "'La Duchesse'",
+                "'La Verte Moisson'",
+                "'L'Autre femme'"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Jurassic Park",
+            "difficulte": "expert",
+            "question": "Sur quelle île interdite au large du Costa Rica fut créé le parc du film 'Jurassic Park III' ?",
+            "reponse_correcte": "Isla Sorna",
+            "autres_choix": [
+                "Isla Maya",
+                "Isla Nublar",
+                "Isla Bonita"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "L'appel du large",
+            "difficulte": "confirmé",
+            "question": "Dans quel pays se trouve l'île de Komodo, entre Sumbawa et Florès ?",
+            "reponse_correcte": "Indonésie",
+            "autres_choix": [
+                "Japon",
+                "Philippines",
+                "Malaisie"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Forêts de France",
+            "difficulte": "débutant",
+            "question": "Quelle forêt domaniale est la plus grande du département du Finistère ?",
+            "reponse_correcte": "Forêt du Cranou",
+            "autres_choix": [
+                "Forêt de Bonifatu",
+                "Forêt de Montfort",
+                "Forêt de Grésigne"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Géo pour tous",
+            "difficulte": "débutant",
+            "question": "Dans quel pays allez-vous si vous partez à la recherche du comte Dragul, en Transylvanie ?",
+            "reponse_correcte": "En Roumanie",
+            "autres_choix": [
+                "En Hongrie",
+                "En Bulgarie",
+                "En Australie"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "La Durance",
+            "difficulte": "confirmé",
+            "question": "Quelle distance est parcourue par la Durance, du Sommet des Anges au confluent avec le Rhône ?",
+            "reponse_correcte": "305 km",
+            "autres_choix": [
+                "242 km",
+                "438 km",
+                "542 km"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "La Durance",
+            "difficulte": "confirmé",
+            "question": "Quel pourcentage de ressource en eau la Durance fournit-elle à la ville de Marseille ?",
+            "reponse_correcte": "66 %",
+            "autres_choix": [
+                "44 %",
+                "22 %",
+                "88 %"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Villes du monde",
+            "difficulte": "débutant",
+            "question": "Laquelle de ces quatre villes espagnoles n'est pas un port ?",
+            "reponse_correcte": "Madrid",
+            "autres_choix": [
+                "Barcelone",
+                "Malaga",
+                "Valence"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Antarctique",
+            "difficulte": "débutant",
+            "question": "Situé autour du pôle Sud, comment est aussi parfois appelé l'Antarctique ?",
+            "reponse_correcte": "Continent blanc",
+            "autres_choix": [
+                "Continent bleu",
+                "Continent vert",
+                "Continent rouge"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Villes du monde",
+            "difficulte": "débutant",
+            "question": "Quelle ville est la capitale de Cuba, également célèbre pour ses cigares ?",
+            "reponse_correcte": "La Havane",
+            "autres_choix": [
+                "Santiago de Cuba",
+                "Guantanamo",
+                "Santa Clara"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Forêts de France",
+            "difficulte": "confirmé",
+            "question": "Quelle forêt domaniale de 600 hectares a été créée par les Chartreux ?",
+            "reponse_correcte": "Forêt de Seillon",
+            "autres_choix": [
+                "Forêt du Gâvre",
+                "Forêt de Retz",
+                "Forêt de Ferrières"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Antarctique",
+            "difficulte": "confirmé",
+            "question": "Quelle température extrême a été mesurée à la verticale du lac Vostok ?",
+            "reponse_correcte": "-90°C",
+            "autres_choix": [
+                "-70°C",
+                "-50°C",
+                "-30°C"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "L'appel du large",
+            "difficulte": "confirmé",
+            "question": "Sur laquelle de ces îles méditerranéennes trouve-t-on un drapeau à tête de maure ?",
+            "reponse_correcte": "Sardaigne",
+            "autres_choix": [
+                "Sicile",
+                "Ibiza",
+                "Crète"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "La Durance",
+            "difficulte": "expert",
+            "question": "Dans quel palais de Marseille la Durance est-elle représentée en groupe sculpté majestueux ?",
+            "reponse_correcte": "Longchamp",
+            "autres_choix": [
+                "Pesciolini",
+                "Renard",
+                "Giraudy"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Antarctique",
+            "difficulte": "expert",
+            "question": "Qui est la première personne née au sud du 60e parallèle sud ?",
+            "reponse_correcte": "Emilio Palma",
+            "autres_choix": [
+                "Koreyoshi Kurahara",
+                "Dominic Sena",
+                "Yves Sente"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Géo pour tous",
+            "difficulte": "confirmé",
+            "question": "Sachant que les Apennins se trouvent en Italie, où sont principalement situées les Appalaches ?",
+            "reponse_correcte": "Aux États-Unis",
+            "autres_choix": [
+                "En Inde",
+                "En Russie",
+                "Au Brésil"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Forêts de France",
+            "difficulte": "débutant",
+            "question": "Quelle est par sa taille la troisième forêt domaniale de France métropolitaine ?",
+            "reponse_correcte": "Forêt de Compiègne",
+            "autres_choix": [
+                "Forêt de Tusson",
+                "Forêt du Cranou",
+                "Forêt de Creuse"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "La Durance",
+            "difficulte": "expert",
+            "question": "Quel pont est longtemps resté le seul passage en dur d'une rive à l'autre de la Durance ?",
+            "reponse_correcte": "Pont de Sisteron",
+            "autres_choix": [
+                "Pont de Bontoux",
+                "Pont de Plauche",
+                "Pont de Bézave"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "L'appel du large",
+            "difficulte": "débutant",
+            "question": "Dans quel océan se trouve l'île de Mayotte dans l'archipel des Comores ?",
+            "reponse_correcte": "Océan indien",
+            "autres_choix": [
+                "Océan pacifique",
+                "Océan arctique",
+                "Océan atlantique"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Antarctique",
+            "difficulte": "confirmé",
+            "question": "Combien d'habitants permanents compte-t-on à ce jour en Antarctique ?",
+            "reponse_correcte": "Aucun",
+            "autres_choix": [
+                "5 000",
+                "15 000",
+                "50 000"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Villes du monde",
+            "difficulte": "confirmé",
+            "question": "Sur les rives de quelle mer la ville de Venise est-elle située ?",
+            "reponse_correcte": "Adriatique",
+            "autres_choix": [
+                "Égée",
+                "Ionienne",
+                "Noire"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Géo pour tous",
+            "difficulte": "débutant",
+            "question": "Où peut-on se rendre en même temps dans la plus grande île et le plus petit continent du monde ?",
+            "reponse_correcte": "En Australie",
+            "autres_choix": [
+                "En Europe",
+                "En Afrique",
+                "En Asie"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Antarctique",
+            "difficulte": "expert",
+            "question": "Quel nom porte la première base « zéro-émission » du monde en Antarctique ?",
+            "reponse_correcte": "Princesse Elisabeth",
+            "autres_choix": [
+                "Concordia",
+                "Dôme Fuji",
+                "Neumayer 3"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Antarctique",
+            "difficulte": "confirmé",
+            "question": "Quelle chaîne divise sans interruption l'Antarctique en deux parties ?",
+            "reponse_correcte": "Transantarctique",
+            "autres_choix": [
+                "Transcontinentale",
+                "Transfrontalière",
+                "Transibérienne"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "La Durance",
+            "difficulte": "débutant",
+            "question": "Quel écrivain est probablement le plus connu à s'être inspiré de la Durance pour son uvre ?",
+            "reponse_correcte": "Jean Giono",
+            "autres_choix": [
+                "Pierre Magnan",
+                "Pierre Martel",
+                "Jean Proal"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Géo pour tous",
+            "difficulte": "expert",
+            "question": "Quelle capitale pakistanaise, située au nord du pays, jouxte la ville de Rawalpindi ?",
+            "reponse_correcte": "Islamabad",
+            "autres_choix": [
+                "Karachi",
+                "Wah",
+                "Quetta"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Forêts de France",
+            "difficulte": "expert",
+            "question": "Quelle forêt d'Ille-et-Vilaine fut le théâtre de combats entre Chouans et Républicains ?",
+            "reponse_correcte": "Forêt du Pertre",
+            "autres_choix": [
+                "Forêt de Bondy",
+                "Forêt de Taillard",
+                "Forêt de Saou"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "Forêts de France",
+            "difficulte": "débutant",
+            "question": "Quelle forêt de Corse occupe un majestueux cirque montagneux ?",
+            "reponse_correcte": "Forêt de Bonifatu",
+            "autres_choix": [
+                "Forêt de Chantilly",
+                "Forêt de Tusson",
+                "Forêt du Vercors"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "geographie",
+            "theme": "L'appel du large",
+            "difficulte": "expert",
+            "question": "Quelle est la langue officielle parlée sur l'île de Spitzberg ?",
+            "reponse_correcte": "Norvégien",
+            "autres_choix": [
+                "Danois",
+                "Russe",
+                "Suédois"
+            ]
+        }
+    ]
+}

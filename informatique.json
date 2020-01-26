@@ -1,0 +1,395 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Snapchat",
+            "difficulte": "confirmé",
+            "question": "Depuis quelle année la Snap Map permet-elle de localiser ses amis ?",
+            "reponse_correcte": "2017",
+            "autres_choix": [
+                "2016",
+                "2015",
+                "2018"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Snapchat",
+            "difficulte": "débutant",
+            "question": "Quelle est la durée minimale d'une publication sur Snapchat ?",
+            "reponse_correcte": "1 seconde",
+            "autres_choix": [
+                "6 secondes",
+                "10 secondes",
+                "10 secondes"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Linux",
+            "difficulte": "expert",
+            "question": "Quelle société financée par l'entrepreneur sud-africain Mark Shuttleworth commandite Ubuntu ?",
+            "reponse_correcte": "Canonical",
+            "autres_choix": [
+                "Pentax",
+                "Panasonic",
+                "Nikon"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Linux",
+            "difficulte": "débutant",
+            "question": "Quelle commande Linux, basée sur la commande UNIX, utilise-t-on pour effacer un fichier ?",
+            "reponse_correcte": "Rm",
+            "autres_choix": [
+                "Rem",
+                "Del",
+                "Delete"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Snapchat",
+            "difficulte": "expert",
+            "question": "Quelle paire de lunettes de soleil connectées a été lancée par Snap Inc. ?",
+            "reponse_correcte": "Spectacles",
+            "autres_choix": [
+                "Odyssey",
+                "Connect Eyes",
+                "Mobisun"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Linux",
+            "difficulte": "débutant",
+            "question": "Quel est le principal atout de Linux, développé et maintenu par Linus Torvalds ?",
+            "reponse_correcte": "Il est libre",
+            "autres_choix": [
+                "Il est beau",
+                "Il est Finlandais",
+                "Il est amusant"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Snapchat",
+            "difficulte": "expert",
+            "question": "Quelle application permettant de réserver des sorties a été rachetée par Snapchat ?",
+            "reponse_correcte": "Vurb",
+            "autres_choix": [
+                "Next",
+                "Park",
+                "Sign"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Snapchat",
+            "difficulte": "expert",
+            "question": "Dans quel langage de programmation est principalement écrit Snapchat ?",
+            "reponse_correcte": "Java",
+            "autres_choix": [
+                "HTML",
+                "Delphi",
+                "Cobol"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Linux",
+            "difficulte": "débutant",
+            "question": "Quel système d'exploitation mobile majeur de l'industrie actuelle s'appuie sur un noyau Linux ?",
+            "reponse_correcte": "Android",
+            "autres_choix": [
+                "iOS",
+                "Windows Phone",
+                "BlackBerry 10"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Linux",
+            "difficulte": "expert",
+            "question": "Quel graphiste a dessiné en 1996 le manchot Tux initial, mascotte du projet Linux ?",
+            "reponse_correcte": "Larry Ewing",
+            "autres_choix": [
+                "Jeffrey Lynch",
+                "Rob Janoff",
+                "Wes Wilson"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Linux",
+            "difficulte": "débutant",
+            "question": "Sous Linux, comment appelle-t-on les logiciels assemblés autour du noyau ?",
+            "reponse_correcte": "Une distribution",
+            "autres_choix": [
+                "Un progiciel",
+                "Un intégré",
+                "Une logithèque"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Snapchat",
+            "difficulte": "confirmé",
+            "question": "Qui est devenu milliardaire à l'âge de 24 ans grâce à Snapchat ?",
+            "reponse_correcte": "Evan Spiegel",
+            "autres_choix": [
+                "Jeff Bezos",
+                "Paul Allen",
+                "Tom Golisano"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Snapchat",
+            "difficulte": "confirmé",
+            "question": "Quelle somme Facebook a-t-il proposé pour le rachat de Snapchat ?",
+            "reponse_correcte": "3 milliards",
+            "autres_choix": [
+                "5 milliards",
+                "1 milliard",
+                "7 milliards"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Linux",
+            "difficulte": "confirmé",
+            "question": "De quelle distribution Linux est dérivé le système d'exploitation Ubuntu ?",
+            "reponse_correcte": "Debian",
+            "autres_choix": [
+                "Red Hat",
+                "Slackware",
+                "Fedora"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Linux",
+            "difficulte": "débutant",
+            "question": "Laquelle de ces propositions désigne une distribution Linux fondée en 1993 ?",
+            "reponse_correcte": "Red Hat",
+            "autres_choix": [
+                "Zubuntu",
+                "Souze",
+                "Mandrika"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Snapchat",
+            "difficulte": "confirmé",
+            "question": "Quel était le nombre d'utilisateurs moyen par jour de Snapchat en 2017 ?",
+            "reponse_correcte": "166 millions",
+            "autres_choix": [
+                "146 millions",
+                "126 millions",
+                "106 millions"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Snapchat",
+            "difficulte": "débutant",
+            "question": "Quel outil de Snapchat permet depuis 2014 d'envoyer de l'argent ?",
+            "reponse_correcte": "Snapcash",
+            "autres_choix": [
+                "Snapcoin",
+                "Snapmoney",
+                "Snapsend"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Snapchat",
+            "difficulte": "expert",
+            "question": "Pour quel pourcentage des revenus de Snapchat les États-Unis interviennent-ils ?",
+            "reponse_correcte": "95 %",
+            "autres_choix": [
+                "85 %",
+                "75 %",
+                "65 %"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Snapchat",
+            "difficulte": "confirmé",
+            "question": "Quelle moyenne de temps les utilisateurs passent-ils chaque jour sur Snapchat ?",
+            "reponse_correcte": "30 minutes",
+            "autres_choix": [
+                "1 heure",
+                "2 heures",
+                "3 heures"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Snapchat",
+            "difficulte": "débutant",
+            "question": "Quel élément de Snapchat a été modifié début février 2018 ?",
+            "reponse_correcte": "Interface",
+            "autres_choix": [
+                "Prix",
+                "Publicité",
+                "PDG"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Snapchat",
+            "difficulte": "expert",
+            "question": "Avec quel service de paiement Snapchat est-il associé depuis 2014 ?",
+            "reponse_correcte": "Square",
+            "autres_choix": [
+                "PayPal",
+                "O-Secure",
+                "Bitcoin"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Snapchat",
+            "difficulte": "confirmé",
+            "question": "Quel moment de la journée génère une hausse d'utilisation de Snapchat ?",
+            "reponse_correcte": "Fin de journée",
+            "autres_choix": [
+                "Matinée",
+                "Midi",
+                "Nuit"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Snapchat",
+            "difficulte": "expert",
+            "question": "Quelle plateforme Snapchat héberge des chaînes propres à l'application ?",
+            "reponse_correcte": "Discover",
+            "autres_choix": [
+                "Memories",
+                "Spectacles",
+                "Picaboo"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Linux",
+            "difficulte": "expert",
+            "question": "Comment fut initialement appelé le projet Linux, qui deviendra par la suite une marque déposée ?",
+            "reponse_correcte": "Freax",
+            "autres_choix": [
+                "Serval",
+                "Panther",
+                "Longhorn"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Snapchat",
+            "difficulte": "débutant",
+            "question": "Quelle couleur est généralement associée à Snapchat ?",
+            "reponse_correcte": "Jaune",
+            "autres_choix": [
+                "Vert",
+                "Rouge",
+                "Bleu"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Snapchat",
+            "difficulte": "débutant",
+            "question": "Dans quel État des États-Unis l'application Snapchat a-t-elle été développée ?",
+            "reponse_correcte": "Californie",
+            "autres_choix": [
+                "Montana",
+                "Texas",
+                "Ohio"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Linux",
+            "difficulte": "expert",
+            "question": "Lequel de ces jeux tourne nativement sous GNU/Linux ?",
+            "reponse_correcte": "'Quake III Arena'",
+            "autres_choix": [
+                "'Super Mario Kart'",
+                "'Zelda'",
+                "'Splinter Cell'"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Linux",
+            "difficulte": "expert",
+            "question": "Quel programmeur et militant du logiciel libre a créé le Projet GNU en 1984 ?",
+            "reponse_correcte": "Richard Stallman",
+            "autres_choix": [
+                "Linus Torvalds",
+                "John Von Neumann",
+                "Alan Cox"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Linux",
+            "difficulte": "débutant",
+            "question": "Quel serveur web présent sous Linux est aussi présent sur les serveurs du monde entier ?",
+            "reponse_correcte": "Apache",
+            "autres_choix": [
+                "Comanche",
+                "Sioux",
+                "Mohican"
+            ]
+        },
+        {
+            "langue": "fr",
+            "categorie": "informatique",
+            "theme": "Linux",
+            "difficulte": "confirmé",
+            "question": "Quel ancien mot bantou désigne une célèbre distribution Linux ?",
+            "reponse_correcte": "Ubuntu",
+            "autres_choix": [
+                "Gentoo",
+                "Mandriva",
+                "Fedora"
+            ]
+        }
+    ]
+}
