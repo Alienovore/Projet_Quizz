@@ -1,126 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Quizz</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
-      integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css"
-    />
-  </head>
-  <body>
-    <div id="selectTheme">
-      <h1>Selectionnez un thème :</h1>
-      <div class="option-group">
-        <div class="option-container">
-          <input
-            class="option-input"
-            checked
-            id="informatique"
-            type="radio"
-            name="options"
-          />
-          <input
-            class="option-input"
-            id="internet"
-            type="radio"
-            name="options"
-          />
 
-          <label class="option" for="informatique">
-            <span class="option__indicator"></span>
-            <span class="option__label">
-              <sub>Informatique</sub>
-            </span>
-          </label>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Quizz</title>
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+    integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css" />
+</head>
 
-          <label class="option" for="internet">
-            <span class="option__indicator"></span>
-            <span class="option__label">
-              <sub>Internet</sub>
-            </span>
-          </label>
-        </div>
+<body>
+  <div id="selectTheme">
+    <h1>Selectionnez un thème :</h1>
+    <div class="option-group">
+      <div class="option-container">
+        <input class="option-input" checked id="informatique" type="radio" name="options" />
+        <input class="option-input" id="internet" type="radio" name="options" />
+
+        <label class="option" for="informatique">
+          <span class="option__indicator"></span>
+          <span class="option__label">
+            <sub>Informatique</sub>
+          </span>
+        </label>
+
+        <label class="option" for="internet">
+          <span class="option__indicator"></span>
+          <span class="option__label">
+            <sub>Internet</sub>
+          </span>
+        </label>
       </div>
-      <div class="option-group">
-        <div class="option-container">
-          <input
-            class="option-input"
-            id="gastronomie"
-            type="radio"
-            name="options"
-          />
-          <input
-            class="option-input"
-            id="sciences"
-            type="radio"
-            name="options"
-          />
+    </div>
+    <div class="option-group">
+      <div class="option-container">
+        <input class="option-input" id="gastronomie" type="radio" name="options" />
+        <input class="option-input" id="sciences" type="radio" name="options" />
 
-          <label class="option" for="gastronomie">
-            <span class="option__indicator"></span>
-            <span class="option__label">
-              <sub>Gastronomie</sub>
-            </span>
-          </label>
+        <label class="option" for="gastronomie">
+          <span class="option__indicator"></span>
+          <span class="option__label">
+            <sub>Gastronomie</sub>
+          </span>
+        </label>
 
-          <label class="option" for="sciences">
-            <span class="option__indicator"></span>
-            <span class="option__label">
-              <sub>Sciences</sub>
-            </span>
-          </label>
-        </div>
+        <label class="option" for="sciences">
+          <span class="option__indicator"></span>
+          <span class="option__label">
+            <sub>Sciences</sub>
+          </span>
+        </label>
       </div>
+    </div>
 
-      <button class="btn btn-primary" id="playButton" onclick="chooseTheme()">
-        Jouer
-      </button>
-    </div>
-    <div class="d-none" id="quizz">
-      <h1 class="display-2">Quizz</h1>
-      <h3 id="index_question"></h3>
-      <div id="question"></div>
-      <button class="btn btn-primary" id="btn0"></button>
-      <button class="btn btn-primary" id="btn1"></button>
-      <button class="btn btn-primary" id="btn2"></button>
-      <button class="btn btn-primary" id="btn3"></button>
-      <div id="answer"></div>
-    </div>
-    <script src="./quizz.js"></script>
-  </body>
+    <button class="btn btn-primary" id="playButton" onclick="chooseTheme()">
+      Jouer
+    </button>
+  </div>
+  <div class="d-none" id="quizz">
+    <h1 class="display-2">Quizz</h1>
+    <h3 id="index_question"></h3>
+    <div id="question"></div>
+    <div id="answers_button"></div>
+    <div id="answer"></div>
+  </div>
+  <script src="./quizz.js"></script>
+</body>
+
 </html>

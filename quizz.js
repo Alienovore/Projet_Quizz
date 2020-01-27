@@ -3,12 +3,12 @@ let index_question = 0;
 let nb_question = 10;
 let right_ans;
 let score = 0;
+let option = undefined;
 
 //Loop starter with the first question
 
 function chooseTheme() {
   let theme = document.getElementsByName("options");
-  let option = undefined;
   for (let i = 0; i < theme.length; i++) {
     if (theme[i].checked == true) {
       option = theme[i].id;
@@ -20,17 +20,16 @@ function chooseTheme() {
 }
 
 function loadQuestion(theme) {
-  //Check if it's the last question
-  if (index_question < nb_question) {
-    //Reset of the answer part and disable the button
-    document.getElementById("answer").innerHTML = "";
-    //Display of the question number
-    document.getElementById("index_question").innerHTML =
-      "Question: " + (index_question + 1);
-    fetch(`http://localhost:8080/${theme}.json`)
-      .then(result => result.json())
-      .then(data => {
-
+  fetch(`http://localhost:8080/${theme}.json`)
+    .then(result => result.json())
+    .then(data => {
+      //Check if it's the last question
+      if (index_question < nb_question) {
+        //Reset of the answer part and disable the button
+        document.getElementById("answer").innerHTML = "";
+        //Display of the question number
+        document.getElementById("index_question").innerHTML =
+          "Question: " + (index_question + 1);
         const question = data.results[index_question].question;
         //Display the question
         document.getElementById("question").innerHTML = question;
@@ -53,6 +52,7 @@ function loadQuestion(theme) {
         answers = shuffle(answers);
         //Display button with answers
         for (let i = 0; i < answers.length; i++) {
+          document.getElementById("answers_button").innerHTML += `<button class="btn btn-primary" id="btn` + i + `"></button>`;
           document.getElementById("btn" + i).innerHTML = answers[i].reponse;
           //Set the different actions on the button
           if (answers[i].value == "correct") {
@@ -67,26 +67,28 @@ function loadQuestion(theme) {
           }
         }
         return right_ans;
-      });
-  }
-  //Display the end of the quizz with the final score
-  else {
-    document.getElementById("answer").innerHTML =
-      `<h3>Quizz fini!</h3>
-        <p>Votre score est de ` +
-      score +
-      ` points</p>`;
-  }
+      }
+      //Display the end of the quizz with the final score
+      else {
+        document.getElementById("answer").innerHTML =
+          `<h3>Quizz fini!</h3>
+              <p>Votre score est de ` +
+          score +
+          ` points</p>`;
+      }
+    });
 }
 
 //Increase the score value and display the next question button
 function correct() {
   score++;
+  document.getElementById("answers_button").innerHTML = "";
   document.getElementById("answer").innerHTML = `<p>Bonne réponse</p>
     <button onclick="next()">Question suivante</button>`;
 }
 //Display the right answer and the next question button
 function uncorrect() {
+  document.getElementById("answers_button").innerHTML = "";
   document.getElementById("answer").innerHTML =
     `<p>Mauvaise réponse, la bonne réponse était: ` +
     right_ans +
@@ -98,7 +100,7 @@ function uncorrect() {
 function next() {
   console.log;
   index_question++;
-  loadQuestion();
+  loadQuestion(option);
 }
 
 //Simple function to shuffle an array
