@@ -70,6 +70,7 @@ function loadQuestion(theme) {
       }
       //Display the end of the quizz with the final score
       else {
+        document.getElementById("question").innerHTML = "";
         document.getElementById("answer").innerHTML =
           `<h3>Quizz fini!</h3>
               <p>Votre score est de ` +
