@@ -1,5 +1,4 @@
 html {
-  background: linear-gradient(to bottom, #4678f3, #64d6ee);
   font-size: 62.5%;
   height: 100%;
   display: -webkit-box;
@@ -7,7 +6,7 @@ html {
 }
 body {
   width: 100%;
-  background: linear-gradient(#4678f3, #64d6ee);
+  background-image: linear-gradient(to right bottom, #ff0016, #fb4406, #f66200, #f17900, #eb8d12);
   overflow: hidden;
   font-family: Rubik !important;
 }
@@ -17,12 +16,49 @@ h2 {
   color: #fff !important;
   margin: 2.5% !important;
 }
+
+#index_question {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
 #playButton {
   margin-left: 45%;
   width: 10%;
   margin-top: 3%;
   font-size: 20px;
 }
+
+#question {
+  font-size: 20px;
+  color: #fff;
+}
+
+#answers_button button {
+  margin: 15px 7px;
+  width: 210px;
+  height: 40px;
+  font-size: 16px;
+}
+
+#answer {
+  font-size: 16px;
+  color: #fff;
+}
+
+#answer button {
+  width: 175px;
+  height: 40px;
+  font-size: 16px;
+}
+
+.questions {
+  text-align: center;
+}
+
+
+/*CSS Classes for the toggle buttons*/
 .option-group {
   width: 90%;
   max-width: 400px;
@@ -97,7 +133,7 @@ h2 {
 .option__indicator:after {
   content: "";
   display: block;
-  border: solid 2px #64d6ee;
+  border: solid 2px #ffa602;
   border-radius: 50%;
   width: 0.25em;
   height: 0.25em;
@@ -106,7 +142,7 @@ h2 {
   right: 0;
 }
 .option__indicator:after {
-  background: #64d6ee;
+  background: #ffa602;
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transition: inherit;
@@ -142,7 +178,7 @@ h2 {
 .option__label:after {
   content: "";
   display: block;
-  border: solid 2px #64d6ee;
+  border: solid 2px #ffa602;
   width: 100%;
   -webkit-transform-origin: 0 0;
   transform-origin: 0 0;

@@ -3,10 +3,13 @@ let index_question = 0;
 let nb_question = 10;
 let right_ans;
 let score = 0;
-let option = undefined;
+let option;
+let interval;
+let questions = {};
 
-//Loop starter with the first question
+let highscore = localStorage.getItem("highscore");//Initialize the highscore
 
+//Function allowing the user to choose the theme of the quizz
 function chooseTheme() {
   let theme = document.getElementsByName("options");
   for (let i = 0; i < theme.length; i++) {
@@ -16,92 +19,121 @@ function chooseTheme() {
   }
   document.getElementById("selectTheme").classList.add("d-none");
   document.getElementById("quizz").classList.remove("d-none");
-  loadQuestion(option);
-}
-
-function loadQuestion(theme) {
-  fetch(`http://localhost:8080/${theme}.json`)
+  fetch(`http://localhost:8080/${option}.json`)
     .then(result => result.json())
     .then(data => {
-      //Check if it's the last question
-      if (index_question < nb_question) {
-        //Reset of the answer part and disable the button
-        document.getElementById("answer").innerHTML = "";
-        //Display of the question number
-        document.getElementById("index_question").innerHTML =
-          "Question: " + (index_question + 1);
-        const question = data.results[index_question].question;
-        //Display the question
-        document.getElementById("question").innerHTML = question;
+      questions.results = shuffle(data.results);//Shuffle the question array
+      loadQuestion(questions);//Load the first question with the theme
+    });
+}
 
-        let answers = [];
-        let other_answer = data.results[index_question].autres_choix;
-
-        //Fill the answers table with wrong answers
-        for (let j = 0; j < other_answer.length; j++) {
-          answers.push({ reponse: other_answer[j], value: "uncorrect" });
-        }
-
-        //Fill the answers table with the right answer
-        answers.push({
-          reponse: data.results[index_question].reponse_correcte,
-          value: "correct"
-        });
-
-        //Shuffle the table
-        answers = shuffle(answers);
-        //Display button with answers
-        for (let i = 0; i < answers.length; i++) {
-          document.getElementById("answers_button").innerHTML += `<button class="btn btn-primary" id="btn` + i + `"></button>`;
-          document.getElementById("btn" + i).innerHTML = answers[i].reponse;
-          //Set the different actions on the button
-          if (answers[i].value == "correct") {
-            document
-              .getElementById("btn" + i)
-              .setAttribute("onclick", "correct()");
-            right_ans = answers[i].reponse;
-          } else {
-            document
-              .getElementById("btn" + i)
-              .setAttribute("onclick", "uncorrect()");
-          }
-        }
-        return right_ans;
+//Loop starter with the first question
+function loadQuestion(data) {
+  timer();//Launch timer
+  //Check if it's the last question
+  if (index_question < nb_question) {
+    document.getElementById("answer").innerHTML = "";//Reset of the answer part and disable the button
+    document.getElementById("index_question").innerHTML = "Question: " + (index_question + 1);//Display of the question number
+    const question = data.results[index_question].question;//Get the question in the data array
+    document.getElementById("question").innerHTML = question;//Display the question
+    let answers = [];
+    let other_answer = data.results[index_question].autres_choix;
+    //Fill the answers array with wrong answers
+    for (let i = 0; i < other_answer.length; i++) {
+      answers.push({ reponse: other_answer[i], value: "uncorrect" });
+    }
+    //Fill the answers array with the right answer
+    answers.push({
+      reponse: data.results[index_question].reponse_correcte,
+      value: "correct"
+    });
+    answers = shuffle(answers);//Shuffle the table
+    //Display button with answers
+    for (let i = 0; i < answers.length; i++) {
+      document.getElementById("answers_button").innerHTML += `<button class="btn btn-warning" id="btn${i}"></button>`;
+      document.getElementById("btn" + i).innerHTML = answers[i].reponse;
+      //Set the different actions on the button
+      if (answers[i].value == "correct") {
+        document
+          .getElementById("btn" + i)
+          .setAttribute("onclick", "correct()");
+        right_ans = answers[i].reponse;
+      } else {
+        document
+          .getElementById("btn" + i)
+          .setAttribute("onclick", "uncorrect()");
       }
-      //Display the end of the quizz with the final score
-      else {
-        document.getElementById("question").innerHTML = "";
+    }
+    return right_ans;
+  }
+  //Display the end of the quizz with the final score
+  else {
+    clearInterval(interval);
+    if (highscore !== null) { //Check if there's already an highscore
+      if (score > highscore) {//Change the old highscore
+        localStorage.setItem("highscore", score);
+        document.getElementById("answer").innerHTML =
+          `<h2>Quizz fini!</h2>
+              <p>Ceci est votre meilleur score ! Il est de ${score} points<br/>
+              Bravo !</p>
+              <button onClick="window.location.reload()" class="btn btn-warning">Rejouer</button>`;//Add a button to reload the page
+      }
+      else {//Simply display the score
         document.getElementById("answer").innerHTML =
           `<h3>Quizz fini!</h3>
-              <p>Votre score est de ` +
-          score +
-          ` points</p>`;
+              <p>Votre score est de ${score} points</p>
+              <button onClick="window.location.reload()" class="btn btn-warning">Rejouer</button>`;//Add a button to reload the page
       }
-    });
+    }
+    else {//Set the new highscore to the actual score
+      localStorage.setItem("highscore", score);
+      document.getElementById("answer").innerHTML =
+        `<h3>Quizz fini!</h3>
+              <p>Votre score est de ${score} points</p>
+              <button onClick="window.location.reload()" class="btn btn-warning">Rejouer</button>`;//Add a button to reload the page
+    }
+    document.getElementById("question").innerHTML = "";
+  }
+}
+
+//10s Timer function
+function timer() {
+  let timer = 9;
+  interval = setInterval(function () {
+    document.getElementById("answer").innerHTML = `<p>Temps restant: ${timer}s</p>`;//Display the time left
+    timer--;//Decrement the timer value
+
+    if (timer <= 0) {//Check if the timer is still going
+      clearInterval(interval);
+      document.getElementById("answers_button").innerHTML = "";
+      document.getElementById("answer").innerHTML =
+        `<p>Trop tard, la bonne réponse était: ${right_ans}</p>
+    <button onclick="next()" class="btn btn-warning">Question suivante</button>`;//Add a button to display the next question
+    }
+  }, 1000);
 }
 
 //Increase the score value and display the next question button
 function correct() {
-  score++;
+  score++;//Increment score
+  clearInterval(interval);//Delete timer
   document.getElementById("answers_button").innerHTML = "";
   document.getElementById("answer").innerHTML = `<p>Bonne réponse</p>
-    <button onclick="next()">Question suivante</button>`;
+    <button onclick="next()" class="btn btn-warning">Question suivante</button>`;//Add a button to display the next question
 }
 //Display the right answer and the next question button
 function uncorrect() {
+  clearInterval(interval);//Delete timer
   document.getElementById("answers_button").innerHTML = "";
   document.getElementById("answer").innerHTML =
-    `<p>Mauvaise réponse, la bonne réponse était: ` +
-    right_ans +
-    `</p>
-    <button onclick="next()">Question suivante</button>`;
+    `<p>Mauvaise réponse, la bonne réponse était: ${right_ans}</p>
+    <button onclick="next()" class="btn btn-warning">Question suivante</button>`;//Add a button to display the next question
 }
 
-//Reload the quizz with the next question
+//Display the next question
 function next() {
-  console.log;
   index_question++;
-  loadQuestion(option);
+  loadQuestion(questions);
 }
 
 //Simple function to shuffle an array

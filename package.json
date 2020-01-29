@@ -1,11 +1,22 @@
 {
   "name": "projet_quizz",
   "version": "1.0.0",
-  "description": "",
   "main": "quizz.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alienovore/Projet_Quizz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alienovore/Projet_Quizz/issues"
+  },
+  "homepage": "https://github.com/Alienovore/Projet_Quizz#readme",
+  "description": "",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
 }
